@@ -75,3 +75,11 @@ Dinner:
 
 ---- Predicted Daily Calories ----
 Predicted Daily Calories: 2100
+# Get recommended foods
+recommend_food('muscle_gain', 'vegan')
+
+# Generate meal plan
+generate_meal_plan('weight_loss', 'vegetarian')
+
+# Predict daily calories
+predict_calories([26, 62, 168, 2])  # age, weight(kg), height(cm), activity_level.
