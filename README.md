@@ -83,3 +83,43 @@ generate_meal_plan('weight_loss', 'vegetarian')
 
 # Predict daily calories
 predict_calories([26, 62, 168, 2])  # age, weight(kg), height(cm), activity_level.
+# AI-Health-Agent: AI-Powered Medical Diet Assistant
+
+**AI-Health-Agent** is an AI-powered assistant that generates personalized, condition-friendly daily meal plans for people with **Diabetes** and **Gastritis**. It also predicts daily calorie requirements and suggests foods based on dietary preferences and fitness goals.
+
+---
+
+## Features
+
+### Personalized Meal Plans
+- Generates 3-meal plans (Breakfast, Lunch, Dinner) tailored for **Diabetes** and **Gastritis** patients.
+- Considers user age, gender, activity level, and food preferences.
+- Ensures safe and healthy food recommendations.
+
+### Food Recommendation
+- Suggests foods based on fitness goals: `weight_loss`, `muscle_gain`, `maintenance`.
+- Supports diet types: `vegan`, `vegetarian`, `non_vegetarian`.
+
+### Daily Calorie Prediction
+- Estimates daily calorie requirement based on age, weight, height, and activity level.
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/<your-username>/AI-Diet-Planner.git
+from diet_assistant import generate_meal_plan
+
+generate_meal_plan('weight_loss', 'vegetarian')
+cd AI-Diet-Planner
+pip install pandas scikit-learn
+from diet_assistant import recommend_food
+
+recommend_food('muscle_gain', 'vegan')
+from diet_assistant import predict_calories
+
+# Format: [age, weight(kg), height(cm), activity_level]
+predict_calories([26, 62, 168, 2])
