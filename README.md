@@ -123,3 +123,30 @@ from diet_assistant import predict_calories
 
 # Format: [age, weight(kg), height(cm), activity_level]
 predict_calories([26, 62, 168, 2])
+
+🥗 AI-Health-Agent
+
+AI-Health-Agent is an AI-powered assistant that creates personalized meal plans for people with Diabetes and Gastritis.
+It provides safe and healthy food recommendations based on diet preferences, fitness goals, age, gender, and activity level, and estimates daily calorie needs.
+
+
+---
+
+🌟 Features
+
+Personalized Meal Plans: Breakfast, Lunch, and Dinner tailored for medical conditions.
+
+Food Recommendations: Suggests foods for weight loss, muscle gain, or maintenance; supports vegan, vegetarian, and non-vegetarian diets.
+🥗 AI-Health-Agent
+
+AI-Health-Agent is an AI-powered assistant that creates personalized meal plans for people with Diabetes and Gastritis.
+It provides safe and healthy food recommendations based on diet preferences, fitness goals, age, gender, and activity level, and estimates daily calorie needs.
+
+
+---
+
+🌟 Features
+
+Personalized Meal Plans: Breakfast, Lunch, and Dinner tailored for medical conditions.
+
+Food Recommendations: Suggests foods for weight loss, muscle gain, or maintenance; supports vegan, vegetarian, and non-vegetarian diets.
