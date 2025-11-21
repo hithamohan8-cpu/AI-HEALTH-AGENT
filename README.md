@@ -150,3 +150,24 @@ It provides safe and healthy food recommendations based on diet preferences, fit
 Personalized Meal Plans: Breakfast, Lunch, and Dinner tailored for medical conditions.
 
 Food Recommendations: Suggests foods for weight loss, muscle gain, or maintenance; supports vegan, vegetarian, and non-vegetarian diets.
+
+AI-Health-Agent
+
+AI-Health-Agent is an AI-powered assistant that creates personalized meal plans for people with Diabetes and Gastritis. It provides healthy, safe, and tailored food recommendations based on diet preferences, fitness goals, age, gender, and activity level.
+
+🌟 Key Features
+
+Personalized meal plans for Breakfast, Lunch, and Dinner
+
+Supports weight loss, muscle gain, or maintenance
+
+Vegan, vegetarian, and non-vegetarian options
+
+Diabetes-friendly and stomach-friendly meals
+
+Meal reminders, recipe suggestions, and weekly tracking
+
+Export plans as PDF
+
+
+Stay healthy, manage your diet, and achieve your fitness goals effortlessly!
