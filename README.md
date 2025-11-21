@@ -171,3 +171,19 @@ Export plans as PDF
 
 
 Stay healthy, manage your diet, and achieve your fitness goals effortlessly!
+
+AI-Health-Agent is an AI-powered assistant that generates personalized, condition-friendly daily meal plans for people with Diabetes and Gastritis.
+It provides healthy, safe, and tailored food recommendations based on diet preferences, fitness goals, age, gender, and activity level, and predicts daily calorie needs. 💪
+
+
+---
+
+🌟 Key Features
+
+Feature	Description	Emoji
+
+Personalized Meal Plans	Breakfast, Lunch, and Dinner tailored for Diabetes & Gastritis	🥗
+Food Recommendation	Suggests foods for weight_loss, muscle_gain, or maintenance	🍎
+Diet Types	Vegan, Vegetarian, Non-Vegetarian	🌱🍗
+Daily Calorie Prediction	Estimates daily calorie needs based on user data	🔢
+Additional Features	Meal reminders, recipe suggestions, weekly tracking, PDF export	⏰
