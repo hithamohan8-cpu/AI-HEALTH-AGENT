@@ -14,3 +14,65 @@ This project provides personalized daily diet recommendations for users with Dia
 - `diet_assistant.ipynb` : Main notebook
 - `report.pdf` : Project report
 - `images/` : Screenshots and plots
+- # AI-Powered Personalized Diet Planner
+
+This is a Python-based AI-powered personalized diet planner that recommends food items and generates meal plans based on user goals and dietary preferences. It also predicts the daily calorie requirement based on user information.
+
+---
+
+## Features
+
+1. **Food Recommendation**  
+   - Suggests food items based on fitness goals: `weight_loss`, `muscle_gain`, or `maintenance`.  
+   - Supports different diet types: `vegan`, `vegetarian`, `non_vegetarian`.
+
+2. **Meal Plan Generation**  
+   - Generates a simple 3-meal plan (Breakfast, Lunch, Dinner) for the day.
+
+3. **Daily Calorie Prediction**  
+   - Predicts daily calorie requirement based on user age, weight, height, and activity level.
+
+---
+
+## Dataset
+
+- The script uses sample datasets included in the code.  
+- You can replace them with real datasets for nutrition and user info.
+
+---
+
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/<your-username>/AI-Diet-Planner.git
+pip install pandas scikit-learn
+python diet_planner.py
+# Get recommended foods
+recommend_food('muscle_gain', 'vegan')
+
+# Generate meal plan
+generate_meal_plan('weight_loss', 'vegetarian')
+
+# Predict daily calories
+predict_calories([26, 62, 168, 2])  # age, weight(kg), height(cm), activity_level
+---- Recommended Foods ----
+   food_name  calories  protein  carbs   fat
+3       Tofu -1.35     0.00     -0.35 -0.05
+4   Broccoli -1.10    -0.87     -0.05 -0.87
+
+---- Meal Plan ----
+Breakfast:
+ - Oats (Calories: -0.23)
+ - Broccoli (Calories: -1.10)
+
+Lunch:
+ - Oats (Calories: -0.23)
+ - Broccoli (Calories: -1.10)
+
+Dinner:
+ - Oats (Calories: -0.23)
+ - Broccoli (Calories: -1.10)
+
+---- Predicted Daily Calories ----
+Predicted Daily Calories: 2100
